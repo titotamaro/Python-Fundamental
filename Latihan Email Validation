@@ -1,0 +1,35 @@
+### Email Validation
+
+input :
+Masukkan alamat Email : 
+
+Kondisi :
+- Memiliki format nama user@nama hosting.ekstensi
+- Nama user hanya boleh= huruf, angka, dan underscore dan titik
+- nama hosting hanya boleh Huruf dan angka 
+- nama ekstensi hanya boleh huruf dan maksimal 5 karakter
+
+
+Output nya :
+Alamat Email yg anda masukkan Tidak Valid
+- Karena Format Email salah ( tidak ada @ atau pake ,)
+- Karena Format user name yg anda masukkan salah
+- Karena Format hosting yg anda masukkan salah 
+- Karena format ekstensi yang anda masukkan salah
+
+Alamat Email yg anda masukkan Valid
+
+
+contoh :
+-Valid
+andre@gmail.com
+joni12@city.id
+Joni234_andre@avenger25.space
+
+-TIdak Valid
+andre-^&*)/john@gmail.com
+johny245@g_#$^mail.com
+79andi@yahoo
+tony@avenger25.community
+
+Deadline Minggu malam Kirim Email 
